@@ -5,17 +5,17 @@ import {Route, BrowserRouter as Router, Switch} from "react-router-dom";
 import routes from "./route";
 const App = () => {
     return (
-        // <Router>
-        //     <Switch>
-        //         {
-        //             routes.map(route => <Route exact path={route.path} key={route.path} render={() => <WawanTemplate data={route.html}/>}/> )
-        //         }
-        //         <Route exact path="/" render={() => <Home data={routes}/>}/>
+        <Router>
+            <Switch>
+                {
+                    routes.map(route => <Route exact path={route.path} key={route.path} render={() => <WawanTemplate data={route.html}/>}/> )
+                }
+                <Route exact path="/" render={() => <Home data={routes}/>}/>
                     
                 
-        //     </Switch>
-        // </Router>
-        <h1>Hello world</h1>
+            </Switch>
+        </Router>
+        
     )
 }
 
