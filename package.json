@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "dev": "webpack serve --mode development",
-    "postbuild" : ""
+    "postbuild": ""
   },
   "keywords": [],
   "author": "",
@@ -36,7 +36,6 @@
   },
   "dependencies": {
     "lodash": "^4.17.21",
-    "node-sass": "*",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
